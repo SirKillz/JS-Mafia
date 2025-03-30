@@ -34,6 +34,7 @@ function createEnterPlayersPage() {
 
     const submitButton = document.createElement("button");
     submitButton.textContent = "Submit";
+    submitButton.id = "submit";
     enterPlayersPage.appendChild(submitButton);
 
     return enterPlayersPage;
