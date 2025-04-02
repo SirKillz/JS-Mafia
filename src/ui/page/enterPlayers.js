@@ -13,18 +13,6 @@ function createEnterPlayersPage() {
     enterPlayersPageDiv.appendChild(playerNumberLabel);
     const enterPlayerNumber = document.createElement("input");
     enterPlayerNumber.type = "number";
-    // enterPlayerNumber.addEventListener("input", () => {
-    //     const playerCount = parseInt(enterPlayerNumber.value);
-    //     playerInputDiv.innerHTML = '';
-    //     if (playerCount > 0) {
-    //         for (let i = 0; i < playerCount; i++) {
-    //             const playerInput = document.createElement("input");
-    //             playerInput.type = "text";
-    //             playerInput.placeholder = `Player Name`;
-    //             playerInputDiv.appendChild(playerInput);
-    //         }
-    //     }
-    // })
     enterPlayersPageDiv.appendChild(enterPlayerNumber);
     
     const playerInputDiv = document.createElement("div");
