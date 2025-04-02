@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.startPage {
+.startPageDiv {
     background-image: url(../assets/mafia-background.png);
     height: 100vh;
     width: 100vw;

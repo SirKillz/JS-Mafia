@@ -11,5 +11,5 @@ window.game = game;
 window.ui = ui;
 
 document.addEventListener("DOMContentLoaded", () => {
-    ui.displayStartPage();
+    ui.renderStartPage();
 });
