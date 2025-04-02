@@ -1,4 +1,4 @@
-import "../.././css/startPage.css";
+import "../.././css/start.css";
 
 function createStartPage() {
     const startPageDiv = document.createElement("div");
